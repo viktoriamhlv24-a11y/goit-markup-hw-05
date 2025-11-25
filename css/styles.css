@@ -543,10 +543,30 @@ p {
 }
 
 .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms;
+}
+
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .overlay-text {
 }
 
 .modal {
+  max-width: ;
+  max-height: 80%;
+  overflow-y: auto;
 }
