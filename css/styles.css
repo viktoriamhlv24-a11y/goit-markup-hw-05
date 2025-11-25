@@ -537,6 +537,11 @@ p {
   border-radius: 4px;
 }
 
+.subscribe-img {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+
 .modal-overlay {
 }
 
