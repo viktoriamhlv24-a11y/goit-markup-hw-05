@@ -448,6 +448,10 @@ p {
   max-width: 264px;
 }
 
+.container-footer-social {
+  margin-right: 80px;
+}
+
 .footer-social-text {
   font-weight: 500;
   font-size: 16px;
